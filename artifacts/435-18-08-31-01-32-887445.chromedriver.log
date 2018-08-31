@@ -1,0 +1,4300 @@
+[0.967][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [ "--disable-gpu", "--single-process", "--no-sandbox", "--data-path=/tmp/data-path", "--homedir=/tmp/homedir", "--disk-cache-dir=/tmp", "--disk-cache-size=1", "--media-cache-size=1", "--allow-file-access-from-files", "--enable-logging", "--v=1", "--disable-web-security", "--disable-extensions", "--ignore-certificate-errors", "--disable-ntp-most-likely-favicons-from-server", "--disable-ntp-popular-sites", "--window-size=1366,1024", "--disable-infobars", "--disable-dev-shm-usage", "..." ],
+         "binary": "/tmp/chrome-lambda/chrome",
+         "prefs": {
+            "credentials_enable_service": false,
+            "profile": {
+               "password_manager_enabled": false
+            }
+         }
+      },
+      "count": 1
+   }
+}
+[4.108][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[4.108][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[4.108][INFO]: Launching chrome: /tmp/chrome-lambda/chrome --allow-file-access-from-files --data-path=/tmp/data-path --disable-background-networking --disable-browser-side-navigation --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-extensions-except=/tmp/.org.chromium.Chromium.aVF29W/internal --disable-gpu --disable-hang-monitor --disable-infobars --disable-ntp-most-likely-favicons-from-server --disable-ntp-popular-sites --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --disable-web-security --disk-cache-dir=/tmp --disk-cache-size=1 --enable-automation --enable-logging --enable-precise-memory-info --force-fieldtrials=SiteIsolationExtensions/Control --homedir=/tmp/homedir --ignore-certificate-errors --log-level=0 --media-cache-size=1 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=12492 --safebrowsing-disable-auto-update --single-process --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.Pr4Lix --v=1 --window-size=1366,1024 data:,
+[4.109][DEBUG]: DevTools request: http://localhost:12492/json/version
+prctl(PR_SET_NO_NEW_PRIVS) failed
+Xlib:  extension "RANDR" missing on display ":99".
+[347:359:0831/073343.395750:ERROR:bus.cc(395)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+Xlib:  extension "RANDR" missing on display ":99".
+
+DevTools listening on ws://127.0.0.1:12492/devtools/browser/bca8bb69-dcfe-47c7-a953-fab8b948f8e0
+[4.906][SEVERE]: CreatePlatformSocket() returned an error, errno=1: Operation not permitted (1)
+[4.907][DEBUG]: DevTools response: {
+   "Browser": "Chrome/63.0.3239.84",
+   "Protocol-Version": "1.2",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+   "V8-Version": "6.3.292.46",
+   "WebKit-Version": "537.36 (@0f53a5abc7a405fbe9f1cfd3db38f2092c8a7816)",
+   "webSocketDebuggerUrl": "ws://localhost:12492/devtools/browser/bca8bb69-dcfe-47c7-a953-fab8b948f8e0"
+}
+
+[4.910][DEBUG]: DevTools request: http://localhost:12492/json
+[4.925][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12492/devtools/page/(652FD511DD9E98FD2D8921E93F403825)",
+   "id": "(652FD511DD9E98FD2D8921E93F403825)",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:12492/devtools/page/(652FD511DD9E98FD2D8921E93F403825)"
+} ]
+
+[4.925][DEBUG]: DevTools request: http://localhost:12492/json
+[4.925][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12492/devtools/page/(652FD511DD9E98FD2D8921E93F403825)",
+   "id": "(652FD511DD9E98FD2D8921E93F403825)",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:12492/devtools/page/(652FD511DD9E98FD2D8921E93F403825)"
+} ]
+
+[4.926][INFO]: resolved localhost to ["127.0.0.1"]
+[4.926][DEBUG]: DEVTOOLS COMMAND Log.enable (id=1) {
+
+}
+[4.927][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=2) {
+
+}
+[4.927][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=3) {
+
+}
+[4.927][DEBUG]: DEVTOOLS COMMAND Page.enable (id=4) {
+
+}
+[4.927][DEBUG]: DEVTOOLS COMMAND Page.enable (id=5) {
+
+}
+[347:377:0831/073344.117910:ERROR:io_thread.cc(730)] Cannot use V8 Proxy resolver in single process mode.
+[347:377:0831/073344.119800:ERROR:io_thread.cc(730)] Cannot use V8 Proxy resolver in single process mode.
+[5.075][DEBUG]: DEVTOOLS RESPONSE Log.enable (id=1) {
+
+}
+[5.075][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=2) {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "about:blank",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[5.076][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=3) {
+
+}
+[5.076][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=4) {
+
+}
+[5.076][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=5) {
+
+}
+[5.076][DEBUG]: DEVTOOLS COMMAND Page.enable (id=6) {
+
+}
+[5.165][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "commit",
+   "timestamp": 1871.428736
+}
+[5.165][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "(652FD511DD9E98FD2D8921E93F403825)",
+      "loaderId": "347.1",
+      "mimeType": "text/plain",
+      "securityOrigin": "://",
+      "url": "data:,"
+   }
+}
+[5.165][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[5.165][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=7) {
+
+}
+[5.167][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "isDefault": true
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[5.167][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=6) {
+
+}
+[5.186][DEBUG]: DEVTOOLS EVENT Page.loadEventFired {
+   "timestamp": 1871.49234
+}
+[5.186][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "load",
+   "timestamp": 1871.49234
+}
+[5.186][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[5.186][DEBUG]: DEVTOOLS EVENT Page.domContentEventFired {
+   "timestamp": 1871.492677
+}
+[5.186][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "DOMContentLoaded",
+   "timestamp": 1871.492677
+}
+[5.186][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[5.186][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=8) {
+
+}
+[5.227][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=7) {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 7,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 9,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[5.227][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=8) {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 7,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 11,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 9,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 12,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         } ],
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "localName": "html",
+         "nodeId": 10,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 9
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 9,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[5.227][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=9) {
+
+}
+[5.228][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=9) {
+
+}
+[5.228][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=10) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[5.235][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=10) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[5.235][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4)",
+      "userDataDir": "/tmp/.org.chromium.Chromium.Pr4Lix"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Linux",
+   "rotatable": false,
+   "setWindowRect": true,
+   "takesHeapSnapshot": true,
+   "~~~": "..."
+}
+[5.277][INFO]: COMMAND SetTimeout {
+   "script": 11000
+}
+[5.279][INFO]: RESPONSE SetTimeout unknown error: 'ms' must be a double
+  (Session info: chrome=63.0.3239.84)
+[5.306][INFO]: COMMAND SetTimeout {
+   "ms": 11000,
+   "type": "script"
+}
+[5.306][INFO]: RESPONSE SetTimeout
+[6.175][INFO]: COMMAND SetTimeout {
+   "pageLoad": 30000
+}
+[6.178][INFO]: RESPONSE SetTimeout unknown error: 'ms' must be a double
+  (Session info: chrome=63.0.3239.84)
+[6.187][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "page load"
+}
+[6.187][INFO]: RESPONSE SetTimeout
+[6.464][INFO]: COMMAND Navigate {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[6.464][INFO]: Waiting for pending navigations...
+[6.464][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=11) {
+   "expression": "1"
+}
+[6.466][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "networkAlmostIdle",
+   "timestamp": 1871.492842
+}
+[6.466][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "networkIdle",
+   "timestamp": 1871.492842
+}
+[6.466][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=11) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[6.466][INFO]: Done waiting for pending navigations. Status: ok
+[6.466][DEBUG]: DEVTOOLS COMMAND Page.navigate (id=12) {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[6.470][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[6.471][DEBUG]: DEVTOOLS RESPONSE Page.navigate (id=12) {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[6.483][INFO]: Waiting for pending navigations...
+[6.484][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=13) {
+   "expression": "1"
+}
+[6.484][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=13) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[6.656][DEBUG]: DEVTOOLS EVENT Runtime.executionContextDestroyed {
+   "executionContextId": 1
+}
+[6.656][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=14) {
+   "expression": "1"
+}
+[6.664][DEBUG]: DEVTOOLS EVENT Runtime.executionContextsCleared {
+
+}
+[6.665][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "commit",
+   "timestamp": 1872.944961
+}
+[6.665][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "(652FD511DD9E98FD2D8921E93F403825)",
+      "loaderId": "347.2",
+      "mimeType": "text/html",
+      "securityOrigin": "https://translate.google.com",
+      "url": "https://translate.google.com/"
+   }
+}
+[6.665][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "isDefault": true
+      },
+      "id": 3,
+      "name": "",
+      "origin": "https://translate.google.com"
+   }
+}
+[6.665][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[6.665][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=15) {
+
+}
+[6.712][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=14) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[6.965][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=15) {
+   "root": {
+      "backendNodeId": 10,
+      "baseURL": "https://translate.google.com/#en/es/Technical",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 11,
+         "localName": "",
+         "nodeId": 14,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 13,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [  ],
+         "backendNodeId": 12,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 13,
+            "childNodeCount": 22,
+            "localName": "head",
+            "nodeId": 16,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 15
+         }, {
+            "attributes": [ "dir", "ltr", "onload", "window.jstiming.load['tick']('ol');", "class", "e_md nj pre-epu" ],
+            "backendNodeId": 14,
+            "childNodeCount": 2,
+            "localName": "body",
+            "nodeId": 17,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 15
+         } ],
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "localName": "html",
+         "nodeId": 15,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 13
+      } ],
+      "documentURL": "https://translate.google.com/#en/es/Technical",
+      "localName": "",
+      "nodeId": 13,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[6.965][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 3,
+   "nodeId": 17
+}
+[6.965][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+   "name": "class",
+   "nodeId": 17,
+   "value": "e_md  pre-epu"
+}
+[6.965][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 4,
+   "nodeId": 17
+}
+[6.965][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=16) {
+   "expression": "1"
+}
+[7.064][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 23,
+   "nodeId": 16
+}
+[7.084][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=16) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[7.639][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+   "name": "class",
+   "nodeId": 17,
+   "value": "e_md pre-epu"
+}
+[7.639][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 5,
+   "nodeId": 17
+}
+[7.639][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=17) {
+   "expression": "1"
+}
+[7.640][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 4,
+   "nodeId": 17
+}
+[7.640][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 5,
+   "nodeId": 17
+}
+[7.640][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 6,
+   "nodeId": 17
+}
+[7.640][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 7,
+   "nodeId": 17
+}
+[7.640][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 8,
+   "nodeId": 17
+}
+[7.640][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 7,
+   "nodeId": 17
+}
+[7.640][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 6,
+   "nodeId": 17
+}
+[7.640][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 7,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 8,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 9,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 10,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 11,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 12,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 13,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 13,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.665][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 24,
+   "nodeId": 16
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 25,
+   "nodeId": 16
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 26,
+   "nodeId": 16
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 27,
+   "nodeId": 16
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.666][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "firstPaint",
+   "timestamp": 1873.505478
+}
+[7.666][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "firstContentfulPaint",
+   "timestamp": 1873.505482
+}
+[7.668][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "firstTextPaint",
+   "timestamp": 1873.505483
+}
+[7.668][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "firstImagePaint",
+   "timestamp": 1873.505484
+}
+[7.668][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "firstMeaningfulPaintCandidate",
+   "timestamp": 1873.505487
+}
+[7.691][DEBUG]: DEVTOOLS EVENT Log.entryAdded {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Failed to decode downloaded font: https://fonts.gstatic.com/stats/Roboto/normal/700",
+      "timestamp": 1535700826780.07,
+      "url": "https://translate.google.com/#en/es/Technical"
+   }
+}
+[7.779][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 28,
+   "nodeId": 16
+}
+[7.779][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 17
+}
+[7.779][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 14,
+   "nodeId": 17
+}
+[7.780][DEBUG]: DEVTOOLS EVENT Page.domContentEventFired {
+   "timestamp": 1874.114805
+}
+[7.780][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "DOMContentLoaded",
+   "timestamp": 1874.114805
+}
+[7.780][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[7.780][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=18) {
+
+}
+[7.780][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=17) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[7.909][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=18) {
+   "root": {
+      "backendNodeId": 10,
+      "baseURL": "https://translate.google.com/#en/es/Technical",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 11,
+         "localName": "",
+         "nodeId": 19,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 18,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [  ],
+         "backendNodeId": 12,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 13,
+            "childNodeCount": 28,
+            "localName": "head",
+            "nodeId": 21,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 20
+         }, {
+            "attributes": [ "dir", "ltr", "onload", "window.jstiming.load['tick']('ol');", "class", "e_md pre-epu" ],
+            "backendNodeId": 14,
+            "childNodeCount": 14,
+            "localName": "body",
+            "nodeId": 22,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 20
+         } ],
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "localName": "html",
+         "nodeId": 20,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 18
+      } ],
+      "documentURL": "https://translate.google.com/#en/es/Technical",
+      "localName": "",
+      "nodeId": 18,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[8.051][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 29,
+   "nodeId": 21
+}
+[8.051][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 15,
+   "nodeId": 22
+}
+[8.051][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 16,
+   "nodeId": 22
+}
+[8.051][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 17,
+   "nodeId": 22
+}
+[8.051][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 18,
+   "nodeId": 22
+}
+[8.051][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 19,
+   "nodeId": 22
+}
+[8.051][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 30,
+   "nodeId": 21
+}
+[8.051][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 20,
+   "nodeId": 22
+}
+[8.052][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 21,
+   "nodeId": 22
+}
+[8.052][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 20,
+   "nodeId": 22
+}
+[8.052][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 19,
+   "nodeId": 22
+}
+[8.052][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 20,
+   "nodeId": 22
+}
+[8.052][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 31,
+   "nodeId": 21
+}
+[8.052][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 21
+}
+[8.052][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=19) {
+   "expression": "1"
+}
+[8.124][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "firstMeaningfulPaintCandidate",
+   "timestamp": 1874.264192
+}
+[8.165][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=19) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.167][DEBUG]: DEVTOOLS EVENT Runtime.exceptionThrown {
+   "exceptionDetails": {
+      "columnNumber": 474,
+      "exception": {
+         "className": "TypeError",
+         "description": "TypeError: Cannot convert undefined or null to object\n    at Image.b.onload.b.onerror (https://translate.google.com/translate/releases/twsfe_w_20180827_RC01/r/js/desktop_module_main.js:839:475)",
+         "objectId": "{\"injectedScriptId\":3,\"id\":1}",
+         "preview": {
+            "description": "TypeError: Cannot convert undefined or null to object\n    at Image.b.onload.b.onerror (https://translate.google.com/translate/releases/twsfe_w_20180827_RC01/r/js/desktop_module_main.js:839:475)",
+            "overflow": false,
+            "properties": [ {
+               "name": "stack",
+               "type": "string",
+               "value": "TypeError: Cannot convert undefined or null to obj…0180827_RC01/r/js/desktop_module_main.js:839:475)"
+            }, {
+               "name": "message",
+               "type": "string",
+               "value": "Cannot convert undefined or null to object"
+            } ],
+            "subtype": "error",
+            "type": "object"
+         },
+         "subtype": "error",
+         "type": "object"
+      },
+      "exceptionId": 1,
+      "executionContextId": 3,
+      "lineNumber": 838,
+      "stackTrace": {
+         "callFrames": [ {
+            "columnNumber": 474,
+            "functionName": "b.onload.b.onerror",
+            "lineNumber": 838,
+            "scriptId": "52",
+            "url": "https://translate.google.com/translate/releases/twsfe_w_20180827_RC01/r/js/desktop_module_main.js"
+         } ]
+      },
+      "text": "Uncaught",
+      "url": "https://translate.google.com/translate/releases/twsfe_w_20180827_RC01/r/js/desktop_module_main.js"
+   },
+   "timestamp": 1535700827266.243
+}
+[8.167][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=20) {
+   "expression": "1"
+}
+[8.231][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 21,
+   "nodeId": 22
+}
+[8.246][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=20) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.248][DEBUG]: DEVTOOLS EVENT Page.loadEventFired {
+   "timestamp": 1874.57576
+}
+[8.248][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "load",
+   "timestamp": 1874.57576
+}
+[8.248][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[8.248][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=21) {
+   "expression": "1"
+}
+[8.250][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=21) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.250][INFO]: Done waiting for pending navigations. Status: ok
+[8.250][INFO]: RESPONSE Navigate
+[8.304][INFO]: COMMAND FindElements {
+   "using": "css selector",
+   "value": "#gt-src-c"
+}
+[8.304][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "firstMeaningfulPaintCandidate",
+   "timestamp": 1874.62135
+}
+[8.304][INFO]: Waiting for pending navigations...
+[8.304][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=22) {
+   "expression": "1"
+}
+[8.314][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=22) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.314][INFO]: Done waiting for pending navigations. Status: ok
+[8.317][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=23) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.338][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=23) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-1"
+         } ]
+      }
+   }
+}
+[8.338][INFO]: Waiting for pending navigations...
+[8.338][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=24) {
+   "expression": "1"
+}
+[8.355][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=24) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.355][INFO]: Done waiting for pending navigations. Status: ok
+[8.355][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.6502128207649533-1"
+} ]
+[8.376][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-1"
+}
+[8.376][INFO]: Waiting for pending navigations...
+[8.376][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=25) {
+   "expression": "1"
+}
+[8.377][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=25) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.377][INFO]: Done waiting for pending navigations. Status: ok
+[8.380][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=26) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.412][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=26) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[8.412][INFO]: Waiting for pending navigations...
+[8.412][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=27) {
+   "expression": "1"
+}
+[8.413][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=27) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.413][INFO]: Done waiting for pending navigations. Status: ok
+[8.413][INFO]: RESPONSE IsElementDisplayed true
+[8.434][INFO]: COMMAND FindChildElements {
+   "id": "0.6502128207649533-1",
+   "using": "css selector",
+   "value": "textarea#source"
+}
+[8.434][INFO]: Waiting for pending navigations...
+[8.434][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=28) {
+   "expression": "1"
+}
+[8.437][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=28) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.437][INFO]: Done waiting for pending navigations. Status: ok
+[8.439][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=29) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.480][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=29) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-2"
+         } ]
+      }
+   }
+}
+[8.480][INFO]: Waiting for pending navigations...
+[8.480][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=30) {
+   "expression": "1"
+}
+[8.481][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=30) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.481][INFO]: Done waiting for pending navigations. Status: ok
+[8.481][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.6502128207649533-2"
+} ]
+[8.485][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-2"
+}
+[8.485][INFO]: Waiting for pending navigations...
+[8.485][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=31) {
+   "expression": "1"
+}
+[8.486][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=31) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.486][INFO]: Done waiting for pending navigations. Status: ok
+[8.488][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=32) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.517][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=32) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[8.517][INFO]: Waiting for pending navigations...
+[8.517][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=33) {
+   "expression": "1"
+}
+[8.518][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=33) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.518][INFO]: Done waiting for pending navigations. Status: ok
+[8.518][INFO]: RESPONSE IsElementDisplayed true
+[8.530][INFO]: COMMAND ClearElement {
+   "id": "0.6502128207649533-2"
+}
+[8.530][INFO]: Waiting for pending navigations...
+[8.530][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=34) {
+   "expression": "1"
+}
+[8.531][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=34) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.531][INFO]: Done waiting for pending navigations. Status: ok
+[8.533][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=35) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.556][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=35) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[8.557][INFO]: Waiting for pending navigations...
+[8.557][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=36) {
+   "expression": "1"
+}
+[8.559][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=36) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.559][INFO]: Done waiting for pending navigations. Status: ok
+[8.559][INFO]: RESPONSE ClearElement
+[8.575][INFO]: COMMAND TypeElement {
+   "id": "0.6502128207649533-2",
+   "text": "12345",
+   "value": [ "1", "2", "3", "4", "5" ]
+}
+[8.575][INFO]: Waiting for pending navigations...
+[8.575][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=37) {
+   "expression": "1"
+}
+[8.576][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=37) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.576][INFO]: Done waiting for pending navigations. Status: ok
+[8.577][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=38) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.580][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=38) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "TEXTAREA"
+      }
+   }
+}
+[8.580][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=39) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.583][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=39) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "textarea"
+      }
+   }
+}
+[8.587][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=40) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.604][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=40) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[8.606][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=41) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.617][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=41) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[8.618][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=42) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[8.628][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=42) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[8.630][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=43) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "rawKeyDown",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[8.637][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=43) {
+
+}
+[8.637][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=44) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "char",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[8.645][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=44) {
+
+}
+[8.645][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=45) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "keyUp",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[8.657][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=45) {
+
+}
+[8.657][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=46) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "rawKeyDown",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[8.658][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "firstMeaningfulPaint",
+   "timestamp": 1874.62135
+}
+[8.664][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=46) {
+
+}
+[8.664][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=47) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "char",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[8.671][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=47) {
+
+}
+[8.671][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=48) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "keyUp",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[8.671][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 21
+}
+[8.684][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=48) {
+
+}
+[8.684][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=49) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "rawKeyDown",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[8.687][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 21
+}
+[8.688][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=49) {
+
+}
+[8.688][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=50) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "char",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[8.690][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=50) {
+
+}
+[8.690][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=51) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "keyUp",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[8.692][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=51) {
+
+}
+[8.692][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=52) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "rawKeyDown",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[8.712][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=52) {
+
+}
+[8.712][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=53) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "char",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[8.725][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=53) {
+
+}
+[8.725][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=54) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "keyUp",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[8.731][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=54) {
+
+}
+[8.731][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=55) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "rawKeyDown",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[8.732][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=55) {
+
+}
+[8.732][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=56) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "char",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[8.744][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=56) {
+
+}
+[8.744][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=57) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "keyUp",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[8.746][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=57) {
+
+}
+[8.746][INFO]: Waiting for pending navigations...
+[8.746][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=58) {
+   "expression": "1"
+}
+[8.752][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=58) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.752][INFO]: Done waiting for pending navigations. Status: ok
+[8.752][INFO]: RESPONSE TypeElement
+[8.775][INFO]: COMMAND Screenshot {
+
+}
+[8.775][INFO]: Waiting for pending navigations...
+[8.775][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=59) {
+   "expression": "1"
+}
+[8.776][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=59) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.776][INFO]: Done waiting for pending navigations. Status: ok
+[8.776][DEBUG]: DevTools request: http://localhost:12492/json/activate/(652FD511DD9E98FD2D8921E93F403825)
+[8.777][DEBUG]: DevTools response: Target activated
+[8.777][DEBUG]: DEVTOOLS COMMAND Page.captureScreenshot (id=60) {
+
+}
+[8.972][DEBUG]: DEVTOOLS RESPONSE Page.captureScreenshot (id=60) {
+   "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUVfrH8e+09EbvaADpoYgUBVdAlxUQF5FVVhHE3lnL6k8UxLXsim1ZC+CKKEUQlyJFVhRioUZEIp0FghBCCyFtIHXu74+YIZNkkpmQZCbk8/bFy8y9557znDuT3JMn555rSktLM..."
+}
+[8.974][INFO]: Waiting for pending navigations...
+[8.974][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=61) {
+   "expression": "1"
+}
+[8.984][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 21
+}
+[8.984][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 21
+}
+[8.990][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=61) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[8.990][INFO]: Done waiting for pending navigations. Status: ok
+[8.990][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUVfrH8e+09EbvaADpoYgUBVdAlxUQF5FVVhHE3lnL6k8UxLXsim1ZC+CKKEUQlyJFVhRioUZEIp0FghBCCyFtIHXu74+YIZNkkpmQZCbk8/bFy8y9557znDuT3JMn555rSktLM..."
+[9.004][INFO]: COMMAND Navigate {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[9.004][INFO]: Waiting for pending navigations...
+[9.004][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=62) {
+   "expression": "1"
+}
+[9.005][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=62) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.005][INFO]: Done waiting for pending navigations. Status: ok
+[9.005][DEBUG]: DEVTOOLS COMMAND Page.navigate (id=63) {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[9.018][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[9.018][DEBUG]: DEVTOOLS RESPONSE Page.navigate (id=63) {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[9.018][INFO]: Waiting for pending navigations...
+[9.018][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=64) {
+   "expression": "1"
+}
+[9.056][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=64) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.079][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[9.079][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=65) {
+   "expression": "1"
+}
+[9.123][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=65) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.123][INFO]: Done waiting for pending navigations. Status: ok
+[9.123][INFO]: RESPONSE Navigate
+[9.131][INFO]: COMMAND FindElements {
+   "using": "css selector",
+   "value": "#gt-src-c"
+}
+[9.131][INFO]: Waiting for pending navigations...
+[9.131][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=66) {
+   "expression": "1"
+}
+[9.170][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=66) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.176][INFO]: Done waiting for pending navigations. Status: ok
+[9.179][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=67) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.226][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=67) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-1"
+         } ]
+      }
+   }
+}
+[9.226][INFO]: Waiting for pending navigations...
+[9.226][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=68) {
+   "expression": "1"
+}
+[9.227][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=68) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.227][INFO]: Done waiting for pending navigations. Status: ok
+[9.227][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.6502128207649533-1"
+} ]
+[9.233][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-1"
+}
+[9.233][INFO]: Waiting for pending navigations...
+[9.233][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=69) {
+   "expression": "1"
+}
+[9.234][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=69) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.234][INFO]: Done waiting for pending navigations. Status: ok
+[9.236][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=70) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.250][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=70) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[9.250][INFO]: Waiting for pending navigations...
+[9.250][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=71) {
+   "expression": "1"
+}
+[9.251][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=71) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.251][INFO]: Done waiting for pending navigations. Status: ok
+[9.251][INFO]: RESPONSE IsElementDisplayed true
+[9.255][INFO]: COMMAND FindChildElements {
+   "id": "0.6502128207649533-1",
+   "using": "css selector",
+   "value": "textarea#source"
+}
+[9.255][INFO]: Waiting for pending navigations...
+[9.255][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=72) {
+   "expression": "1"
+}
+[9.255][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=72) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.255][INFO]: Done waiting for pending navigations. Status: ok
+[9.259][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=73) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.270][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=73) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-2"
+         } ]
+      }
+   }
+}
+[9.270][INFO]: Waiting for pending navigations...
+[9.270][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=74) {
+   "expression": "1"
+}
+[9.271][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=74) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.271][INFO]: Done waiting for pending navigations. Status: ok
+[9.271][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.6502128207649533-2"
+} ]
+[9.276][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-2"
+}
+[9.276][INFO]: Waiting for pending navigations...
+[9.276][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=75) {
+   "expression": "1"
+}
+[9.276][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "name": "networkAlmostIdle",
+   "timestamp": 1874.487828
+}
+[9.276][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=75) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.276][INFO]: Done waiting for pending navigations. Status: ok
+[9.278][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=76) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.292][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=76) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[9.292][INFO]: Waiting for pending navigations...
+[9.292][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=77) {
+   "expression": "1"
+}
+[9.292][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=77) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.292][INFO]: Done waiting for pending navigations. Status: ok
+[9.293][INFO]: RESPONSE IsElementDisplayed true
+[9.298][INFO]: COMMAND ClearElement {
+   "id": "0.6502128207649533-2"
+}
+[9.298][INFO]: Waiting for pending navigations...
+[9.298][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=78) {
+   "expression": "1"
+}
+[9.298][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=78) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.298][INFO]: Done waiting for pending navigations. Status: ok
+[9.300][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=79) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.312][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=79) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[9.312][INFO]: Waiting for pending navigations...
+[9.312][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=80) {
+   "expression": "1"
+}
+[9.315][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=80) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.315][INFO]: Done waiting for pending navigations. Status: ok
+[9.315][INFO]: RESPONSE ClearElement
+[9.319][INFO]: COMMAND TypeElement {
+   "id": "0.6502128207649533-2",
+   "text": "12345",
+   "value": [ "1", "2", "3", "4", "5" ]
+}
+[9.319][INFO]: Waiting for pending navigations...
+[9.319][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=81) {
+   "expression": "1"
+}
+[9.320][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=81) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.320][INFO]: Done waiting for pending navigations. Status: ok
+[9.320][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=82) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.321][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=82) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "TEXTAREA"
+      }
+   }
+}
+[9.322][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=83) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.335][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=83) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "textarea"
+      }
+   }
+}
+[9.337][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=84) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.341][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=84) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[9.342][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=85) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.352][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=85) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[9.353][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=86) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.354][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=86) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[9.354][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=87) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "rawKeyDown",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[9.355][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=87) {
+
+}
+[9.356][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=88) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "char",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[9.357][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=88) {
+
+}
+[9.357][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=89) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "keyUp",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[9.360][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=89) {
+
+}
+[9.360][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=90) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "rawKeyDown",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[9.370][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=90) {
+
+}
+[9.370][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=91) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "char",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[9.374][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=91) {
+
+}
+[9.374][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=92) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "keyUp",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[9.376][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 21
+}
+[9.376][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=92) {
+
+}
+[9.376][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=93) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "rawKeyDown",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[9.379][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=93) {
+
+}
+[9.379][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=94) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "char",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[9.388][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 21
+}
+[9.392][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=94) {
+
+}
+[9.392][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=95) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "keyUp",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[9.398][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=95) {
+
+}
+[9.398][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=96) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "rawKeyDown",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[9.399][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=96) {
+
+}
+[9.399][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=97) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "char",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[9.408][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=97) {
+
+}
+[9.408][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=98) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "keyUp",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[9.415][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=98) {
+
+}
+[9.415][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=99) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "rawKeyDown",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[9.417][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=99) {
+
+}
+[9.417][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=100) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "char",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[9.419][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=100) {
+
+}
+[9.419][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=101) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "keyUp",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[9.432][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=101) {
+
+}
+[9.432][INFO]: Waiting for pending navigations...
+[9.432][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=102) {
+   "expression": "1"
+}
+[9.433][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=102) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.433][INFO]: Done waiting for pending navigations. Status: ok
+[9.433][INFO]: RESPONSE TypeElement
+[9.441][INFO]: COMMAND Screenshot {
+
+}
+[9.441][INFO]: Waiting for pending navigations...
+[9.441][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=103) {
+   "expression": "1"
+}
+[9.442][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=103) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.442][INFO]: Done waiting for pending navigations. Status: ok
+[9.442][DEBUG]: DevTools request: http://localhost:12492/json/activate/(652FD511DD9E98FD2D8921E93F403825)
+[9.448][DEBUG]: DevTools response: Target activated
+[9.448][DEBUG]: DEVTOOLS COMMAND Page.captureScreenshot (id=104) {
+
+}
+[9.650][DEBUG]: DEVTOOLS RESPONSE Page.captureScreenshot (id=104) {
+   "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUZdr/8e+09EYLJaCGGjqIFAEV0EUBUURWWcWCDXVV1rL4iIK4q+4jKi4/XRGXoiiCIEXqY8FYqBGRSEcgCiG0EFIhbeb8/ogZMqkzIclMyOfti5eZc+5ynTOTnDtX7nMfU1pam..."
+}
+[9.650][INFO]: Waiting for pending navigations...
+[9.650][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=105) {
+   "expression": "1"
+}
+[9.657][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 21
+}
+[9.657][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 21
+}
+[9.658][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=105) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.658][INFO]: Done waiting for pending navigations. Status: ok
+[9.658][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUZdr/8e+09EYLJaCGGjqIFAEV0EUBUURWWcWCDXVV1rL4iIK4q+4jKi4/XRGXoiiCIEXqY8FYqBGRSEcgCiG0EFIhbeb8/ogZMqkzIclMyOfti5eZc+5ynTOTnDtX7nMfU1pam..."
+[9.778][INFO]: COMMAND Navigate {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[9.778][INFO]: Waiting for pending navigations...
+[9.778][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=106) {
+   "expression": "1"
+}
+[9.779][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=106) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.779][INFO]: Done waiting for pending navigations. Status: ok
+[9.779][DEBUG]: DEVTOOLS COMMAND Page.navigate (id=107) {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[9.808][DEBUG]: DEVTOOLS RESPONSE Page.navigate (id=107) {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[9.808][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=108) {
+   "expression": "document.URL"
+}
+[9.832][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=108) {
+   "result": {
+      "type": "string",
+      "value": "https://translate.google.com/#en/es/Technical"
+   }
+}
+[9.832][INFO]: Waiting for pending navigations...
+[9.832][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=109) {
+   "expression": "1"
+}
+[9.867][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=109) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.867][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=110) {
+
+}
+[9.873][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=110) {
+   "root": {
+      "backendNodeId": 10,
+      "baseURL": "https://translate.google.com/#en/es/Technical",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 11,
+         "localName": "",
+         "nodeId": 24,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 23,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [  ],
+         "backendNodeId": 12,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 13,
+            "childNodeCount": 32,
+            "localName": "head",
+            "nodeId": 26,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 25
+         }, {
+            "attributes": [ "dir", "ltr", "onload", "window.jstiming.load['tick']('ol');", "class", "e_md pre-epu" ],
+            "backendNodeId": 14,
+            "childNodeCount": 21,
+            "localName": "body",
+            "nodeId": 27,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 25
+         } ],
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "localName": "html",
+         "nodeId": 25,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 23
+      } ],
+      "documentURL": "https://translate.google.com/#en/es/Technical",
+      "localName": "",
+      "nodeId": 23,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[9.873][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=111) {
+   "expression": "var isLoaded = document.readyState == 'complete' ||    document.readyState == 'interactive';if (isLoaded) {  var frame = document.createElement('iframe');  frame.name = 'chromedriver dummy frame'; ..."
+}
+[9.897][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 22,
+   "nodeId": 27
+}
+[9.897][DEBUG]: DEVTOOLS EVENT Page.frameAttached {
+   "frameId": "(719B1513DB8EB178F712524793E49441)",
+   "parentFrameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 240,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "83",
+         "url": ""
+      } ]
+   }
+}
+[9.897][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(719B1513DB8EB178F712524793E49441)",
+   "name": "DOMContentLoaded",
+   "timestamp": 1876.211305
+}
+[9.897][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+   "frameId": "(719B1513DB8EB178F712524793E49441)"
+}
+[9.898][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(719B1513DB8EB178F712524793E49441)",
+   "name": "commit",
+   "timestamp": 1876.212082
+}
+[9.898][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "(719B1513DB8EB178F712524793E49441)",
+      "loaderId": "347.3",
+      "mimeType": "text/html",
+      "name": "chromedriver dummy frame",
+      "parentId": "(652FD511DD9E98FD2D8921E93F403825)",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[9.898][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "(719B1513DB8EB178F712524793E49441)",
+         "isDefault": true
+      },
+      "id": 4,
+      "name": "",
+      "origin": "https://translate.google.com"
+   }
+}
+[9.898][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(719B1513DB8EB178F712524793E49441)",
+   "name": "load",
+   "timestamp": 1876.223909
+}
+[9.898][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "(719B1513DB8EB178F712524793E49441)"
+}
+[9.898][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(719B1513DB8EB178F712524793E49441)",
+   "name": "DOMContentLoaded",
+   "timestamp": 1876.22418
+}
+[9.899][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=111) {
+   "result": {
+      "description": "91",
+      "type": "number",
+      "value": 91
+   }
+}
+[9.899][INFO]: Done waiting for pending navigations. Status: ok
+[9.899][INFO]: RESPONSE Navigate
+[9.912][INFO]: COMMAND FindElements {
+   "using": "css selector",
+   "value": "#gt-src-c"
+}
+[9.912][INFO]: Waiting for pending navigations...
+[9.912][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=112) {
+   "expression": "1"
+}
+[9.932][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 21,
+   "nodeId": 27
+}
+[9.933][DEBUG]: DEVTOOLS EVENT Runtime.executionContextDestroyed {
+   "executionContextId": 4
+}
+[9.933][DEBUG]: DEVTOOLS EVENT Page.frameDetached {
+   "frameId": "(719B1513DB8EB178F712524793E49441)"
+}
+[9.933][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=112) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.933][INFO]: Done waiting for pending navigations. Status: ok
+[9.945][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=113) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.967][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=113) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-1"
+         } ]
+      }
+   }
+}
+[9.967][INFO]: Waiting for pending navigations...
+[9.967][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=114) {
+   "expression": "1"
+}
+[9.968][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=114) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.968][INFO]: Done waiting for pending navigations. Status: ok
+[9.968][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.6502128207649533-1"
+} ]
+[9.976][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-1"
+}
+[9.976][INFO]: Waiting for pending navigations...
+[9.976][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=115) {
+   "expression": "1"
+}
+[9.985][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=115) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.985][INFO]: Done waiting for pending navigations. Status: ok
+[9.988][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=116) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[9.994][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=116) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[9.994][INFO]: Waiting for pending navigations...
+[9.995][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=117) {
+   "expression": "1"
+}
+[9.995][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=117) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[9.995][INFO]: Done waiting for pending navigations. Status: ok
+[9.995][INFO]: RESPONSE IsElementDisplayed true
+[10.005][INFO]: COMMAND FindChildElements {
+   "id": "0.6502128207649533-1",
+   "using": "css selector",
+   "value": "textarea#source"
+}
+[10.005][INFO]: Waiting for pending navigations...
+[10.005][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=118) {
+   "expression": "1"
+}
+[10.005][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=118) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.005][INFO]: Done waiting for pending navigations. Status: ok
+[10.008][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=119) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.013][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=119) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-2"
+         } ]
+      }
+   }
+}
+[10.013][INFO]: Waiting for pending navigations...
+[10.013][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=120) {
+   "expression": "1"
+}
+[10.014][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=120) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.014][INFO]: Done waiting for pending navigations. Status: ok
+[10.014][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.6502128207649533-2"
+} ]
+[10.028][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-2"
+}
+[10.028][INFO]: Waiting for pending navigations...
+[10.028][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=121) {
+   "expression": "1"
+}
+[10.030][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=121) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.030][INFO]: Done waiting for pending navigations. Status: ok
+[10.033][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=122) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.041][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=122) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[10.041][INFO]: Waiting for pending navigations...
+[10.041][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=123) {
+   "expression": "1"
+}
+[10.042][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=123) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.042][INFO]: Done waiting for pending navigations. Status: ok
+[10.042][INFO]: RESPONSE IsElementDisplayed true
+[10.046][INFO]: COMMAND ClearElement {
+   "id": "0.6502128207649533-2"
+}
+[10.046][INFO]: Waiting for pending navigations...
+[10.046][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=124) {
+   "expression": "1"
+}
+[10.052][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=124) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.052][INFO]: Done waiting for pending navigations. Status: ok
+[10.055][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=125) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.062][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=125) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[10.062][INFO]: Waiting for pending navigations...
+[10.062][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=126) {
+   "expression": "1"
+}
+[10.068][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=126) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.068][INFO]: Done waiting for pending navigations. Status: ok
+[10.068][INFO]: RESPONSE ClearElement
+[10.075][INFO]: COMMAND TypeElement {
+   "id": "0.6502128207649533-2",
+   "text": "12345",
+   "value": [ "1", "2", "3", "4", "5" ]
+}
+[10.075][INFO]: Waiting for pending navigations...
+[10.076][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=127) {
+   "expression": "1"
+}
+[10.076][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=127) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.076][INFO]: Done waiting for pending navigations. Status: ok
+[10.077][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=128) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.079][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=128) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "TEXTAREA"
+      }
+   }
+}
+[10.079][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=129) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.081][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=129) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "textarea"
+      }
+   }
+}
+[10.082][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=130) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.111][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=130) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[10.113][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=131) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.126][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=131) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[10.126][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=132) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.128][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=132) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[10.128][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=133) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "rawKeyDown",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[10.129][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=133) {
+
+}
+[10.129][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=134) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "char",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[10.131][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=134) {
+
+}
+[10.131][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=135) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "keyUp",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[10.147][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=135) {
+
+}
+[10.147][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=136) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "rawKeyDown",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[10.147][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 26
+}
+[10.151][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=136) {
+
+}
+[10.151][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=137) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "char",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[10.168][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=137) {
+
+}
+[10.168][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=138) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "keyUp",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[10.173][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=138) {
+
+}
+[10.173][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=139) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "rawKeyDown",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[10.179][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=139) {
+
+}
+[10.179][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=140) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "char",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[10.190][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=140) {
+
+}
+[10.190][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=141) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "keyUp",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[10.190][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 26
+}
+[10.193][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=141) {
+
+}
+[10.193][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=142) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "rawKeyDown",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[10.204][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=142) {
+
+}
+[10.204][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=143) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "char",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[10.206][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=143) {
+
+}
+[10.206][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=144) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "keyUp",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[10.207][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=144) {
+
+}
+[10.208][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=145) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "rawKeyDown",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[10.214][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=145) {
+
+}
+[10.214][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=146) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "char",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[10.216][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=146) {
+
+}
+[10.216][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=147) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "keyUp",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[10.225][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=147) {
+
+}
+[10.225][INFO]: Waiting for pending navigations...
+[10.225][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=148) {
+   "expression": "1"
+}
+[10.232][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=148) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.232][INFO]: Done waiting for pending navigations. Status: ok
+[10.232][INFO]: RESPONSE TypeElement
+[10.239][INFO]: COMMAND Screenshot {
+
+}
+[10.239][INFO]: Waiting for pending navigations...
+[10.239][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=149) {
+   "expression": "1"
+}
+[10.239][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=149) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.239][INFO]: Done waiting for pending navigations. Status: ok
+[10.239][DEBUG]: DevTools request: http://localhost:12492/json/activate/(652FD511DD9E98FD2D8921E93F403825)
+[10.240][DEBUG]: DevTools response: Target activated
+[10.240][DEBUG]: DEVTOOLS COMMAND Page.captureScreenshot (id=150) {
+
+}
+[10.427][DEBUG]: DEVTOOLS RESPONSE Page.captureScreenshot (id=150) {
+   "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUVfrH8e+09EbvaADpoYgUBVdAlxUQF5FVVhHE3lnL6k8UxLXsim1ZC+CKKEUQlyJFVhRioUZEIp0FghBCCyFtIHXu74+YIZNkkpmQZCbk8/bFy8y9557znDuT3JMn555rSktLM..."
+}
+[10.427][INFO]: Waiting for pending navigations...
+[10.427][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 26
+}
+[10.427][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 26
+}
+[10.427][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=151) {
+   "expression": "1"
+}
+[10.435][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=151) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.435][INFO]: Done waiting for pending navigations. Status: ok
+[10.435][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUVfrH8e+09EbvaADpoYgUBVdAlxUQF5FVVhHE3lnL6k8UxLXsim1ZC+CKKEUQlyJFVhRioUZEIp0FghBCCyFtIHXu74+YIZNkkpmQZCbk8/bFy8y9557znDuT3JMn555rSktLM..."
+[10.465][INFO]: COMMAND Navigate {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[10.465][INFO]: Waiting for pending navigations...
+[10.465][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=152) {
+   "expression": "1"
+}
+[10.466][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=152) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.466][INFO]: Done waiting for pending navigations. Status: ok
+[10.466][DEBUG]: DEVTOOLS COMMAND Page.navigate (id=153) {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[10.470][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[10.471][DEBUG]: DEVTOOLS RESPONSE Page.navigate (id=153) {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[10.471][INFO]: Waiting for pending navigations...
+[10.471][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=154) {
+   "expression": "1"
+}
+[10.472][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=154) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.530][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[10.530][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=155) {
+   "expression": "1"
+}
+[10.539][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=155) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.539][INFO]: Done waiting for pending navigations. Status: ok
+[10.539][INFO]: RESPONSE Navigate
+[10.544][INFO]: COMMAND FindElements {
+   "using": "css selector",
+   "value": "#gt-src-c"
+}
+[10.544][INFO]: Waiting for pending navigations...
+[10.544][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=156) {
+   "expression": "1"
+}
+[10.545][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=156) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.545][INFO]: Done waiting for pending navigations. Status: ok
+[10.548][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=157) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.567][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=157) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-1"
+         } ]
+      }
+   }
+}
+[10.567][INFO]: Waiting for pending navigations...
+[10.567][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=158) {
+   "expression": "1"
+}
+[10.573][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=158) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.577][INFO]: Done waiting for pending navigations. Status: ok
+[10.577][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.6502128207649533-1"
+} ]
+[10.588][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-1"
+}
+[10.588][INFO]: Waiting for pending navigations...
+[10.588][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=159) {
+   "expression": "1"
+}
+[10.597][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=159) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.597][INFO]: Done waiting for pending navigations. Status: ok
+[10.598][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=160) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.610][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=160) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[10.610][INFO]: Waiting for pending navigations...
+[10.610][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=161) {
+   "expression": "1"
+}
+[10.612][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=161) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.612][INFO]: Done waiting for pending navigations. Status: ok
+[10.612][INFO]: RESPONSE IsElementDisplayed true
+[10.617][INFO]: COMMAND FindChildElements {
+   "id": "0.6502128207649533-1",
+   "using": "css selector",
+   "value": "textarea#source"
+}
+[10.617][INFO]: Waiting for pending navigations...
+[10.617][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=162) {
+   "expression": "1"
+}
+[10.618][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=162) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.618][INFO]: Done waiting for pending navigations. Status: ok
+[10.620][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=163) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.633][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=163) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-2"
+         } ]
+      }
+   }
+}
+[10.633][INFO]: Waiting for pending navigations...
+[10.633][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=164) {
+   "expression": "1"
+}
+[10.634][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=164) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.634][INFO]: Done waiting for pending navigations. Status: ok
+[10.634][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.6502128207649533-2"
+} ]
+[10.636][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-2"
+}
+[10.636][INFO]: Waiting for pending navigations...
+[10.636][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=165) {
+   "expression": "1"
+}
+[10.637][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=165) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.637][INFO]: Done waiting for pending navigations. Status: ok
+[10.638][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=166) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.644][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=166) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[10.644][INFO]: Waiting for pending navigations...
+[10.644][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=167) {
+   "expression": "1"
+}
+[10.654][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=167) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.654][INFO]: Done waiting for pending navigations. Status: ok
+[10.654][INFO]: RESPONSE IsElementDisplayed true
+[10.656][INFO]: COMMAND ClearElement {
+   "id": "0.6502128207649533-2"
+}
+[10.657][INFO]: Waiting for pending navigations...
+[10.657][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=168) {
+   "expression": "1"
+}
+[10.657][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=168) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.657][INFO]: Done waiting for pending navigations. Status: ok
+[10.659][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=169) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.674][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=169) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[10.674][INFO]: Waiting for pending navigations...
+[10.674][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=170) {
+   "expression": "1"
+}
+[10.675][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=170) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.675][INFO]: Done waiting for pending navigations. Status: ok
+[10.675][INFO]: RESPONSE ClearElement
+[10.680][INFO]: COMMAND TypeElement {
+   "id": "0.6502128207649533-2",
+   "text": "12345",
+   "value": [ "1", "2", "3", "4", "5" ]
+}
+[10.680][INFO]: Waiting for pending navigations...
+[10.680][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=171) {
+   "expression": "1"
+}
+[10.681][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=171) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.681][INFO]: Done waiting for pending navigations. Status: ok
+[10.681][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=172) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.692][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=172) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "TEXTAREA"
+      }
+   }
+}
+[10.693][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=173) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.695][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=173) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "textarea"
+      }
+   }
+}
+[10.698][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=174) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.702][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=174) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[10.703][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=175) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.706][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=175) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[10.706][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=176) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[10.708][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=176) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[10.708][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=177) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "rawKeyDown",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[10.709][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=177) {
+
+}
+[10.709][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=178) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "char",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[10.711][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=178) {
+
+}
+[10.711][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=179) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "keyUp",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[10.716][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=179) {
+
+}
+[10.716][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=180) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "rawKeyDown",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[10.726][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=180) {
+
+}
+[10.726][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=181) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "char",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[10.735][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 26
+}
+[10.735][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=181) {
+
+}
+[10.735][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=182) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "keyUp",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[10.738][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=182) {
+
+}
+[10.738][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=183) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "rawKeyDown",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[10.744][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 26
+}
+[10.745][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=183) {
+
+}
+[10.746][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=184) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "char",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[10.755][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=184) {
+
+}
+[10.755][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=185) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "keyUp",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[10.757][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=185) {
+
+}
+[10.757][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=186) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "rawKeyDown",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[10.771][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=186) {
+
+}
+[10.771][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=187) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "char",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[10.775][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=187) {
+
+}
+[10.775][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=188) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "keyUp",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[10.777][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=188) {
+
+}
+[10.777][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=189) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "rawKeyDown",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[10.785][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=189) {
+
+}
+[10.785][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=190) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "char",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[10.788][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=190) {
+
+}
+[10.788][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=191) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "keyUp",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[10.790][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=191) {
+
+}
+[10.790][INFO]: Waiting for pending navigations...
+[10.790][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=192) {
+   "expression": "1"
+}
+[10.796][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=192) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.796][INFO]: Done waiting for pending navigations. Status: ok
+[10.796][INFO]: RESPONSE TypeElement
+[10.805][INFO]: COMMAND Screenshot {
+
+}
+[10.806][INFO]: Waiting for pending navigations...
+[10.806][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=193) {
+   "expression": "1"
+}
+[10.806][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=193) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.806][INFO]: Done waiting for pending navigations. Status: ok
+[10.806][DEBUG]: DevTools request: http://localhost:12492/json/activate/(652FD511DD9E98FD2D8921E93F403825)
+[10.807][DEBUG]: DevTools response: Target activated
+[10.807][DEBUG]: DEVTOOLS COMMAND Page.captureScreenshot (id=194) {
+
+}
+[10.992][DEBUG]: DEVTOOLS RESPONSE Page.captureScreenshot (id=194) {
+   "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUZdr/8e+09EYLJaCGGjqIFAEV0EUBUURWWcWCDXVV1rL4iIK4q+4jKi4/XRGXoiiCIEXqY8FYqBGRSEcgCiG0EFIhbeb8/ogZMqkzIclMyOfti5eZc+5ynTOTnDtX7nMfU1pam..."
+}
+[10.993][INFO]: Waiting for pending navigations...
+[10.993][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=195) {
+   "expression": "1"
+}
+[10.993][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 26
+}
+[10.993][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 26
+}
+[10.996][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=195) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[10.996][INFO]: Done waiting for pending navigations. Status: ok
+[10.997][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUZdr/8e+09EYLJaCGGjqIFAEV0EUBUURWWcWCDXVV1rL4iIK4q+4jKi4/XRGXoiiCIEXqY8FYqBGRSEcgCiG0EFIhbeb8/ogZMqkzIclMyOfti5eZc+5ynTOTnDtX7nMfU1pam..."
+[11.031][INFO]: COMMAND Navigate {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[11.031][INFO]: Waiting for pending navigations...
+[11.031][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=196) {
+   "expression": "1"
+}
+[11.031][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=196) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.031][INFO]: Done waiting for pending navigations. Status: ok
+[11.032][DEBUG]: DEVTOOLS COMMAND Page.navigate (id=197) {
+   "url": "https://translate.google.com/#en/es/Technical"
+}
+[11.067][DEBUG]: DEVTOOLS RESPONSE Page.navigate (id=197) {
+   "frameId": "(652FD511DD9E98FD2D8921E93F403825)"
+}
+[11.067][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=198) {
+   "expression": "document.URL"
+}
+[11.105][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=198) {
+   "result": {
+      "type": "string",
+      "value": "https://translate.google.com/#en/es/Technical"
+   }
+}
+[11.105][INFO]: Waiting for pending navigations...
+[11.105][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=199) {
+   "expression": "1"
+}
+[11.144][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=199) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.144][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=200) {
+
+}
+[11.154][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=200) {
+   "root": {
+      "backendNodeId": 10,
+      "baseURL": "https://translate.google.com/#en/es/Technical",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 11,
+         "localName": "",
+         "nodeId": 29,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 28,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [  ],
+         "backendNodeId": 12,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 13,
+            "childNodeCount": 32,
+            "localName": "head",
+            "nodeId": 31,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 30
+         }, {
+            "attributes": [ "dir", "ltr", "onload", "window.jstiming.load['tick']('ol');", "class", "e_md pre-epu" ],
+            "backendNodeId": 14,
+            "childNodeCount": 21,
+            "localName": "body",
+            "nodeId": 32,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 30
+         } ],
+         "frameId": "(652FD511DD9E98FD2D8921E93F403825)",
+         "localName": "html",
+         "nodeId": 30,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 28
+      } ],
+      "documentURL": "https://translate.google.com/#en/es/Technical",
+      "localName": "",
+      "nodeId": 28,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[11.154][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=201) {
+   "expression": "var isLoaded = document.readyState == 'complete' ||    document.readyState == 'interactive';if (isLoaded) {  var frame = document.createElement('iframe');  frame.name = 'chromedriver dummy frame'; ..."
+}
+[11.174][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 22,
+   "nodeId": 32
+}
+[11.184][DEBUG]: DEVTOOLS EVENT Page.frameAttached {
+   "frameId": "(D08948E47482D8958A9FDA27E9BC4280)",
+   "parentFrameId": "(652FD511DD9E98FD2D8921E93F403825)",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 240,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "83",
+         "url": ""
+      } ]
+   }
+}
+[11.188][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(D08948E47482D8958A9FDA27E9BC4280)",
+   "name": "DOMContentLoaded",
+   "timestamp": 1877.492422
+}
+[11.189][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+   "frameId": "(D08948E47482D8958A9FDA27E9BC4280)"
+}
+[11.189][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(D08948E47482D8958A9FDA27E9BC4280)",
+   "name": "commit",
+   "timestamp": 1877.49277
+}
+[11.189][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "(D08948E47482D8958A9FDA27E9BC4280)",
+      "loaderId": "347.4",
+      "mimeType": "text/html",
+      "name": "chromedriver dummy frame",
+      "parentId": "(652FD511DD9E98FD2D8921E93F403825)",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[11.189][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "(D08948E47482D8958A9FDA27E9BC4280)",
+         "isDefault": true
+      },
+      "id": 5,
+      "name": "",
+      "origin": "https://translate.google.com"
+   }
+}
+[11.189][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(D08948E47482D8958A9FDA27E9BC4280)",
+   "name": "load",
+   "timestamp": 1877.495997
+}
+[11.189][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "(D08948E47482D8958A9FDA27E9BC4280)"
+}
+[11.189][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(D08948E47482D8958A9FDA27E9BC4280)",
+   "name": "DOMContentLoaded",
+   "timestamp": 1877.500224
+}
+[11.189][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=201) {
+   "result": {
+      "description": "166",
+      "type": "number",
+      "value": 166
+   }
+}
+[11.189][INFO]: Done waiting for pending navigations. Status: ok
+[11.189][INFO]: RESPONSE Navigate
+[11.205][INFO]: COMMAND FindElements {
+   "using": "css selector",
+   "value": "#gt-src-c"
+}
+[11.205][INFO]: Waiting for pending navigations...
+[11.205][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=202) {
+   "expression": "1"
+}
+[11.206][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 21,
+   "nodeId": 32
+}
+[11.206][DEBUG]: DEVTOOLS EVENT Runtime.executionContextDestroyed {
+   "executionContextId": 5
+}
+[11.206][DEBUG]: DEVTOOLS EVENT Page.frameDetached {
+   "frameId": "(D08948E47482D8958A9FDA27E9BC4280)"
+}
+[11.215][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=202) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.215][INFO]: Done waiting for pending navigations. Status: ok
+[11.218][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=203) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.229][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=203) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-1"
+         } ]
+      }
+   }
+}
+[11.229][INFO]: Waiting for pending navigations...
+[11.229][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=204) {
+   "expression": "1"
+}
+[11.229][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=204) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.229][INFO]: Done waiting for pending navigations. Status: ok
+[11.230][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.6502128207649533-1"
+} ]
+[11.250][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-1"
+}
+[11.250][INFO]: Waiting for pending navigations...
+[11.251][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=205) {
+   "expression": "1"
+}
+[11.251][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=205) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.251][INFO]: Done waiting for pending navigations. Status: ok
+[11.254][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=206) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.264][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=206) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[11.265][INFO]: Waiting for pending navigations...
+[11.265][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=207) {
+   "expression": "1"
+}
+[11.265][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=207) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.265][INFO]: Done waiting for pending navigations. Status: ok
+[11.265][INFO]: RESPONSE IsElementDisplayed true
+[11.268][INFO]: COMMAND FindChildElements {
+   "id": "0.6502128207649533-1",
+   "using": "css selector",
+   "value": "textarea#source"
+}
+[11.268][INFO]: Waiting for pending navigations...
+[11.268][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=208) {
+   "expression": "1"
+}
+[11.268][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=208) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.268][INFO]: Done waiting for pending navigations. Status: ok
+[11.270][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=209) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.274][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=209) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [ {
+            "ELEMENT": "0.6502128207649533-2"
+         } ]
+      }
+   }
+}
+[11.275][INFO]: Waiting for pending navigations...
+[11.275][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=210) {
+   "expression": "1"
+}
+[11.275][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=210) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.275][INFO]: Done waiting for pending navigations. Status: ok
+[11.275][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.6502128207649533-2"
+} ]
+[11.278][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6502128207649533-2"
+}
+[11.278][INFO]: Waiting for pending navigations...
+[11.278][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=211) {
+   "expression": "1"
+}
+[11.284][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=211) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.284][INFO]: Done waiting for pending navigations. Status: ok
+[11.287][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=212) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.292][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=212) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[11.292][INFO]: Waiting for pending navigations...
+[11.292][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=213) {
+   "expression": "1"
+}
+[11.293][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=213) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.293][INFO]: Done waiting for pending navigations. Status: ok
+[11.293][INFO]: RESPONSE IsElementDisplayed true
+[11.296][INFO]: COMMAND ClearElement {
+   "id": "0.6502128207649533-2"
+}
+[11.296][INFO]: Waiting for pending navigations...
+[11.296][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=214) {
+   "expression": "1"
+}
+[11.297][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=214) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.297][INFO]: Done waiting for pending navigations. Status: ok
+[11.298][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=215) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.310][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=215) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[11.310][INFO]: Waiting for pending navigations...
+[11.310][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=216) {
+   "expression": "1"
+}
+[11.313][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=216) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.313][INFO]: Done waiting for pending navigations. Status: ok
+[11.313][INFO]: RESPONSE ClearElement
+[11.329][INFO]: COMMAND TypeElement {
+   "id": "0.6502128207649533-2",
+   "text": "12345",
+   "value": [ "1", "2", "3", "4", "5" ]
+}
+[11.329][INFO]: Waiting for pending navigations...
+[11.329][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=217) {
+   "expression": "1"
+}
+[11.330][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=217) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.330][INFO]: Done waiting for pending navigations. Status: ok
+[11.330][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=218) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.333][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=218) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "TEXTAREA"
+      }
+   }
+}
+[11.334][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=219) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.335][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=219) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "textarea"
+      }
+   }
+}
+[11.338][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=220) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.355][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=220) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[11.357][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=221) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.371][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=221) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[11.371][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=222) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[11.373][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=222) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[11.373][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=223) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "rawKeyDown",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[11.374][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=223) {
+
+}
+[11.374][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=224) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "char",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[11.376][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=224) {
+
+}
+[11.376][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=225) {
+   "code": "Digit1",
+   "key": "1",
+   "modifiers": 0,
+   "text": "1",
+   "type": "keyUp",
+   "unmodifiedText": "1",
+   "windowsVirtualKeyCode": 49
+}
+[11.380][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=225) {
+
+}
+[11.380][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=226) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "rawKeyDown",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[11.382][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=226) {
+
+}
+[11.382][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=227) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "char",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[11.388][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=227) {
+
+}
+[11.388][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=228) {
+   "code": "Digit2",
+   "key": "2",
+   "modifiers": 0,
+   "text": "2",
+   "type": "keyUp",
+   "unmodifiedText": "2",
+   "windowsVirtualKeyCode": 50
+}
+[11.390][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 31
+}
+[11.395][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=228) {
+
+}
+[11.395][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=229) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "rawKeyDown",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[11.397][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 31
+}
+[11.397][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=229) {
+
+}
+[11.397][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=230) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "char",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[11.404][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=230) {
+
+}
+[11.404][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=231) {
+   "code": "Digit3",
+   "key": "3",
+   "modifiers": 0,
+   "text": "3",
+   "type": "keyUp",
+   "unmodifiedText": "3",
+   "windowsVirtualKeyCode": 51
+}
+[11.406][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=231) {
+
+}
+[11.406][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=232) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "rawKeyDown",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[11.408][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=232) {
+
+}
+[11.408][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=233) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "char",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[11.413][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=233) {
+
+}
+[11.413][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=234) {
+   "code": "Digit4",
+   "key": "4",
+   "modifiers": 0,
+   "text": "4",
+   "type": "keyUp",
+   "unmodifiedText": "4",
+   "windowsVirtualKeyCode": 52
+}
+[11.416][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=234) {
+
+}
+[11.416][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=235) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "rawKeyDown",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[11.431][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=235) {
+
+}
+[11.431][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=236) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "char",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[11.435][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=236) {
+
+}
+[11.435][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=237) {
+   "code": "Digit5",
+   "key": "5",
+   "modifiers": 0,
+   "text": "5",
+   "type": "keyUp",
+   "unmodifiedText": "5",
+   "windowsVirtualKeyCode": 53
+}
+[11.436][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=237) {
+
+}
+[11.436][INFO]: Waiting for pending navigations...
+[11.436][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=238) {
+   "expression": "1"
+}
+[11.437][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=238) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.437][INFO]: Done waiting for pending navigations. Status: ok
+[11.437][INFO]: RESPONSE TypeElement
+[11.458][INFO]: COMMAND Screenshot {
+
+}
+[11.458][INFO]: Waiting for pending navigations...
+[11.458][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=239) {
+   "expression": "1"
+}
+[11.461][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=239) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.461][INFO]: Done waiting for pending navigations. Status: ok
+[11.461][DEBUG]: DevTools request: http://localhost:12492/json/activate/(652FD511DD9E98FD2D8921E93F403825)
+[11.461][DEBUG]: DevTools response: Target activated
+[11.461][DEBUG]: DEVTOOLS COMMAND Page.captureScreenshot (id=240) {
+
+}
+[11.649][DEBUG]: DEVTOOLS RESPONSE Page.captureScreenshot (id=240) {
+   "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUVfrH8e+09EbvaADpoYgUBVdAlxUQF5FVVhHE3lnL6k8UxLXsim1ZC+CKKEUQlyJFVhRioUZEIp0FghBCCyFtIHXu74+YIZNkkpmQZCbk8/bFy8y9557znDuT3JMn555rSktLM..."
+}
+[11.649][INFO]: Waiting for pending navigations...
+[11.650][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=241) {
+   "expression": "1"
+}
+[11.664][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 33,
+   "nodeId": 31
+}
+[11.664][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 32,
+   "nodeId": 31
+}
+[11.674][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=241) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[11.674][INFO]: Done waiting for pending navigations. Status: ok
+[11.674][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAO+CAYAAADv/k7HAAAgAElEQVR4nOzdd3xUVfrH8e+09EbvaADpoYgUBVdAlxUQF5FVVhHE3lnL6k8UxLXsim1ZC+CKKEUQlyJFVhRioUZEIp0FghBCCyFtIHXu74+YIZNkkpmQZCbk8/bFy8y9557znDuT3JMn555rSktLM..."
+[11.709][INFO]: COMMAND Quit {
+
+}
+[11.759][INFO]: RESPONSE Quit
+[11.759][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[11.759][DEBUG]: Log type 'browser' lost 2 entries on destruction
